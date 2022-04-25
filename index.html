@@ -1,28 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GitHub - User Search</title>
+  </head>
+  <body>
+    <header>
+      <h1>devfinder</h1>
+      <p>Dark</p>
+      <img src="./assets/icon-moon.svg" alt="" />
+    </header>
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  
-  <title>Frontend Mentor | GitHub user search app</title>
-</head>
-<body>
+    <nav class="search">
+      <img src="./assets/icon-search.svg" alt="" />
+      <form action="submit">
+        <input type="text" placeholder="Search GitHub username…" />
+        <input type="submit" value="Search" />
+      </form>
+    </nav>
 
-  devfinder
+    <main>
+      <div class="profile">
+        <img src="./assets/Oval.png" alt="" />
+        <h2>The Octocat</h2>
+        <p>@octocat</p>
+        <p>Joined 25 Jan 2011</p>
+      </div>
 
-  Light
-  Dark
+      <p>
+        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio.
+        Quisque volutpat mattis eros.
+      </p>
 
-  Search GitHub username...
-  Search
+      <table class="stats">
+        <th>
+          <td>Repos</td>
+          <td>Folowers</td>
+          <td>Following</td>
+        </th>
+        <tr>
+          <td>8</td>
+          <td>3938</td>
+          <td>9</td>
+        </tr>
+      </table>
 
-  Joined
-
-  Repos
-  Followers
-  Following
-
-</body>
+      <ul class="contact">
+        <li><img src="./assets/icon-location.svg" alt="">San Francisco</li>
+        <li><img src="./assets/icon-website.svg" alt=" ">https://github.blog</li>
+        <li><img src="./assets/icon-twitter.svg" alt="">Not Available</li>
+        <li><img src="./assets/icon-company.svg" alt="">@github</li>
+      </ul>
+    </main>
+  </body>
 </html>
