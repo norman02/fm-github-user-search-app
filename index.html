@@ -6,53 +6,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>GitHub - User Search</title>
     <link rel="stylesheet" href="./css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
   </head>
   <body>
     <header>
-      <h1>devfinder</h1>
-      <p>Dark</p>
+      <h1 class="text text--larger text--bold">devfinder</h1>
+      <p class="text text--small text--bold toggle">Dark</p>
       <img src="./assets/icon-moon.svg" alt="" />
     </header>
 
     <nav class="search">
       <img src="./assets/icon-search.svg" alt="" />
       <form action="submit">
-        <input type="text" placeholder="Search GitHub username…" />
-        <input type="submit" value="Search" />
+        <input class="text text--small" type="text" placeholder="Search GitHub username…" />
+        <input class="text text--small text--bold" type="submit" value="Search" />
       </form>
     </nav>
 
     <main>
       <div class="profile">
         <img src="./assets/Oval.png" alt="" />
-        <h2>The Octocat</h2>
-        <p>@octocat</p>
-        <p>Joined 25 Jan 2011</p>
+        <h2 class="text text--large text--bold">The Octocat</h2>
+        <p class="text text--small">@octocat</p>
+        <p class="text text--small">Joined 25 Jan 2011</p>
       </div>
 
-      <p>
+      <p class="text text--small">
         Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio.
         Quisque volutpat mattis eros.
       </p>
 
       <table class="stats">
         <th>
-          <td>Repos</td>
-          <td>Folowers</td>
-          <td>Following</td>
+          <td class="text text--smaller">Repos</td>
+          <td class="text text--smaller">Folowers</td>
+          <td class="text text--smaller">Following</td>
         </th>
         <tr>
-          <td>8</td>
-          <td>3938</td>
-          <td>9</td>
+          <td class="text text--large text--bold">8</td>
+          <td class="text text--large text--bold">3938</td>
+          <td class="text text--large text--bold">9</td>
         </tr>
       </table>
 
       <ul class="contact">
-        <li><img src="./assets/icon-location.svg" alt="">San Francisco</li>
-        <li><img src="./assets/icon-website.svg" alt=" ">https://github.blog</li>
-        <li><img src="./assets/icon-twitter.svg" alt="">Not Available</li>
-        <li><img src="./assets/icon-company.svg" alt="">@github</li>
+        <li  class="text text--small"><img src="./assets/icon-location.svg" alt="">San Francisco</li>
+        <li  class="text text--small"><img src="./assets/icon-website.svg" alt=" ">https://github.blog</li>
+        <li  class="text text--small"><img src="./assets/icon-twitter.svg" alt="">Not Available</li>
+        <li  class="text text--small"><img src="./assets/icon-company.svg" alt="">@github</li>
       </ul>
     </main>
   </body>

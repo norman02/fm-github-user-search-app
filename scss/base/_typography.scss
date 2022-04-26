@@ -1,0 +1,35 @@
+/*------------------------------\
+            Typography
+\------------------------------*/
+
+.text {
+    font-family: $primary-font;
+  
+    &--larger {
+      font-size: rem(26);
+      line-height: rem(38);
+    }
+  
+    &--large {
+      font-size: rem(16);
+      line-height: rem(24);
+    }
+  
+    &--medium {
+      font-size: rem(14);
+    }
+  
+    &--small {
+      font-size: rem(13);
+      line-height: rem(20);
+    }
+  
+    &--smaller {
+      font-size: rem(11);
+      line-height: rem(16);
+    }
+  
+    &--bold {
+      font-weight: 700;
+    }
+  }
