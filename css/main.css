@@ -129,13 +129,22 @@ body {
 }
 
 /*------------------------------\
-            Testing
-\------------------------------*/
-/*------------------------------\
             Header
 \------------------------------*/
-.toggle {
-  text-transform: uppercase;
-  letter-spacing: 2.5px;
+header {
+  align-items: center;
+  display: grid;
+  grid-template-columns: auto 55px 20px;
+  margin-bottom: 2.25rem;
 }
+
+.toggle {
+  color: #4b699b;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+}
+
+/*------------------------------\
+            Testing
+\------------------------------*/
 /*# sourceMappingURL=main.css.map */
