@@ -119,4 +119,23 @@ people that prefer not to see them */
 .text--bold {
   font-weight: 700;
 }
+
+/*------------------------------\
+            Global
+\------------------------------*/
+body {
+  padding: 24px;
+  background-color: #f5f7ff;
+}
+
+/*------------------------------\
+            Testing
+\------------------------------*/
+/*------------------------------\
+            Header
+\------------------------------*/
+.toggle {
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+}
 /*# sourceMappingURL=main.css.map */

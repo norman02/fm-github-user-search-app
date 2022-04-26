@@ -4,6 +4,20 @@
 @import "base/reset.scss";
 @import "base/typography";
 
+@import "pages/global";
+
+/*------------------------------\
+            Testing
+\------------------------------*/
 
 
 
+
+/*------------------------------\
+            Header
+\------------------------------*/
+
+.toggle {
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+}
