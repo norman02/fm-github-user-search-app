@@ -1,0 +1,16 @@
+/*------------------------------\
+            Header
+\------------------------------*/
+
+header {
+  align-items: center;
+  display: grid;
+  grid-template-columns: auto 55px 20px;
+  margin-bottom: rem(36);
+}
+
+.toggle {
+  color: $primary-text-color;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+}
