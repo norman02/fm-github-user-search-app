@@ -27,10 +27,11 @@
           <input class="text text--small text--bold btn" type="submit" value="Search" />
         </form>
       </div>
+      <div class="main-component">
       <div class="profile">
         <img src="./assets/Oval.png" alt="" />
         <h2 class="text text--large text--bold">The Octocat</h2>
-        <p class="text text--small">@octocat</p>
+        <p class="text text--small username">@octocat</p>
         <p class="text text--small">Joined 25 Jan 2011</p>
       </div>
 
@@ -39,17 +40,19 @@
         Quisque volutpat mattis eros.
       </p>
 
-      <table class="stats">
-        <th>
-          <td class="text text--smaller">Repos</td>
-          <td class="text text--smaller">Folowers</td>
-          <td class="text text--smaller">Following</td>
-        </th>
+      <table class="stats" aria-label="Social Statistics">
+        <thead>
+          <th class="text text--smaller">Repos</th>
+          <th class="text text--smaller">Folowers</th>
+          <th class="text text--smaller">Following</th>
+        </thead>
+        <tbody>
         <tr>
           <td class="text text--large text--bold">8</td>
           <td class="text text--large text--bold">3938</td>
           <td class="text text--large text--bold">9</td>
         </tr>
+      </tbody>
       </table>
 
       <ul class="contact">
@@ -58,6 +61,7 @@
         <li  class="text text--small"><img src="./assets/icon-twitter.svg" alt="">Not Available</li>
         <li  class="text text--small"><img src="./assets/icon-company.svg" alt="">@github</li>
       </ul>
+    </div>
     </main>
   </body>
 </html>
