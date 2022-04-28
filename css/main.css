@@ -215,6 +215,10 @@ body {
   background-color: #f5f7ff;
 }
 
+.dark {
+  background-color: #141d2e;
+}
+
 /*------------------------------\
             Header
 \------------------------------*/
