@@ -127,6 +127,12 @@ people that prefer not to see them */
   border-radius: 10px;
 }
 
+.toggle {
+  color: #4b699b;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+}
+
 /*------------------------------\
         Main Component
 \------------------------------*/
@@ -233,10 +239,8 @@ h1 {
   color: #212630;
 }
 
-.toggle {
-  color: #4b699b;
-  letter-spacing: 2.5px;
-  text-transform: uppercase;
+.dark h1 {
+  color: white;
 }
 
 /*------------------------------\
