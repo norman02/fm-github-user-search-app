@@ -2,9 +2,11 @@
             Global
 \------------------------------*/
 
-
 body {
-    padding: 24px;
-    background-color: $bg-color;
-  }
-  
+  padding: 24px;
+  background-color: $bg-color;
+}
+
+.dark {
+  background-color: $bg-color-dark;
+}

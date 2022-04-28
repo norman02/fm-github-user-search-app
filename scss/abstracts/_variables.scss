@@ -4,12 +4,15 @@ $primary-font: "Space Mono", monospace;
 // color pallete
 $bright-blue: hsla(212, 100%, 50%, 1);
 $dark-blue: hsla(220, 18%, 16%, 1);
+$very-dark-blue: hsla(220, 40%, 13%, 1);
 $navy: hsla(217, 35%, 45%, 1);
 $very-light-blue: hsla(227, 100%, 98%, 1);
 
 // colors
 $bg-color:$very-light-blue;
+$bg-color-dark: $very-dark-blue;
 $btn-clr: $bright-blue;
 $component-bg-color: white;
 $heading-color: $dark-blue;
 $primary-text-color: $navy;
+$primary-text-color-dark: white;
